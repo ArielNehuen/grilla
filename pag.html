@@ -43,47 +43,49 @@
                  
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-dark" type="submit" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <input class="form-control me-2" type="search" placeholder="" aria-label="search">
+                  
+                  <button class="btn btn-outline-dark" type="submit" ><!--Este es el icono de lupa --><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg> </button>
+                  </svg></button>
+                  
                   <button type="button" class="btn btn-outline-dark btn-m" data-bs-toggle="modal" data-bs-target="#exampleModal">Ingresar</button> 
                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ingrese su usuario</h1>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          ...
+
+                          <form class="row g-3">
+                            <div class="col-auto">
+                              
+                              <label for="exampleFormControlInput1" class="form-label">Ingrese su e-mail</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+
+                              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Contraseña">
+                            </div>
+                            <div class="col-auto">
+                              <label for="inputPassword2" class="visually-hidden">contraseña</label>
+                              <input type="password" class="form-control" id="inputPassword2" placeholder="">
+                            </div>
+                           
+                          </form>
+   
                         </div>
                         <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
+                          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                          <button type="button" class="btn btn-outline-success">Ingresar</button>
                         </div>
                       </div>
                     </div>
                   </div>
+                  
+                  
 
-                  <button type="button" class="btn btn-outline-dark btn-m" data-bs-toggle="modal" data-bs-target="#exampleModal">Registrarce</button><div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
+                  <button type="button" class="btn btn-outline-dark btn-m" href="#pagina-registro">Registrarce</button>
                 </form> 
               </div>
             </div>
