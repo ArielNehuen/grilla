@@ -2,3 +2,22 @@
 h1{
     text-align: center;
 }
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: aliceblue;
+    background-image: linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)) 
+    
+    ,url("imagenes-en-uso-Ariel/principal\ cerveza.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
